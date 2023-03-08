@@ -1,6 +1,7 @@
 body,html{
     padding: 0;
     margin: 0;
+    background-color: #f0f2f5;
 }
 
 .Anki{
@@ -8,5 +9,22 @@ body,html{
 }
 
 .AnkiCard{
-    
+    background: white;
+    width: 390px;
+    height: 800px;
+    text-align: center;
+}
+
+.AnkiTitle {
+    font-size: 4rem;
+    font-weight: 600;
+    padding-top: 140px;
+}
+.AnkiDocs {
+    font-size: 1.4rem;
+    color: #1D2129;
+}
+
+.AnkiRemember{
+
 }
