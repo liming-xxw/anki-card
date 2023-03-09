@@ -5,7 +5,9 @@ body,html{
 }
 
 .Anki{
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .AnkiCard{
@@ -18,13 +20,55 @@ body,html{
 .AnkiTitle {
     font-size: 4rem;
     font-weight: 600;
-    padding-top: 140px;
+    padding-top: 160px;
 }
 .AnkiDocs {
     font-size: 1.4rem;
     color: #1D2129;
+    padding-top: 10px;
 }
 
 .AnkiRemember{
 
+}
+.AnkiRememberAnswer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.AnkiRememberAnswerHeader{
+    height:200px;
+    background: linear-gradient(180deg, #6F8AEC 0%, #526FDB 100%);
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px;
+    justify-content: space-between;
+}
+.AnkiRememberAnswerBody{
+    padding: 10px;
+    box-sizing: border-box;
+    flex: 1;
+    background-color: #edebf4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.AnkiRememberAnswerItem{
+    width: 100%;
+    background-color: white;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.AnkiRememberAnswerTitle{
+    font-weight: 700;
+    font-size: 20px;
+}
+.AnkiRememberAnswerDocs{
+    font-size: 16px;
+    color: rgba(29,33,41,0.7);
+    padding-top: 5px;
+    width: 80%;
 }
